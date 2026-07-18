@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
-    <script src="index.js"></script>
+
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+
+        <p>Guess a number between <b>1 and 10</b></p>
+
+        <input type="number" id="guess" min="1" max="10">
+        <button onclick="checkGuess()">Guess</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
