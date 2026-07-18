@@ -22,8 +22,10 @@ function checkGuess() {
         icon: "success"
     });
 
-      
+
         randomNumber = Math.floor(Math.random() * 10) + 1;
     }
     
 }
+
+
