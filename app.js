@@ -17,7 +17,7 @@ function checkGuess() {
     }
     else {
         Swal.fire({
-        title: "🎊🎉Good job 🎉🎊",
+        title: "🎊🎉Congratulations 🎉🎊",
         text: "You Guessed the Number!",
         icon: "success"
     });
